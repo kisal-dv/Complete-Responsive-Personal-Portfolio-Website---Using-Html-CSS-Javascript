@@ -588,7 +588,37 @@ header.sticky .nav-bar{
     box-shadow: var(--box-shadow);
 }
 
+.service-card > i{
+    color: var(--second-clor);
+    font-size: 3em;
+    margin-bottom: 30px;
 
+
+}
+
+.service-card h3{
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.service-card .learn-more-btn{
+    color: var(--third-color);
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+
+.service-card .learn-more-btn i{
+    transition: .3s ease;
+}
+
+.service-card:hover .learn-more-btn i{
+transform: translateX(10px);
+
+}
 
 
 
